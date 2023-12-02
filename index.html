@@ -8,7 +8,6 @@
         margin: 0;
         padding: 0;
         height: 100vh;
-        cursor: url(arrow.cur), default;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -19,7 +18,7 @@
         width: 550px;
         height: 100vh;
         max-width: 100vw;
-        background-image: url(background.jpg);
+        background-image: url(back.jpg);
         background-size: 550px;
         background-position: center top;
         background-repeat: no-repeat;
@@ -52,10 +51,22 @@
         font-size: 20px;
 
       }
-
-
-
-
+      
+      .stupid {
+        position: absolute;
+        background-image: url(stupid.png);
+        width: 100px;
+        height: 100px;
+        z-index: 10;
+        
+      }
+      
+      .gaymer {
+        position: absolute;
+        background-image: url(gaymer.png);
+        
+        
+      }
 
       .image-credit {
         position: absolute;
@@ -80,6 +91,8 @@
       </div>
       <div class="demographics">
         <h2>demographics</h2>
+        <div class="stupid"></div>
+        <div class="gaymer"></div>
       </div>
       <div class="image-credit">
         <a href="https://jordilafebre.format.com/home#1">image by jordi lafebre</a>
